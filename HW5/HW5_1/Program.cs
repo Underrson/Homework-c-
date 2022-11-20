@@ -4,7 +4,7 @@ int[] CreateRandomArray(int N, int start, int end)
     int[] RandomArray = new int[N];
     for (int i = 0; i < N; i++)
     {
-        RandomArray[i] = new Random().Next(start, end + 1);
+        RandomArray[i] = new Random().Next(start, end);
     }
     return RandomArray;
 }
