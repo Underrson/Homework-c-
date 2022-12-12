@@ -10,7 +10,6 @@ int m = Convert.ToInt32(Console.ReadLine());
 int[,] numbers = new int[n, m];
 FillArrayRandomNumbers(numbers);
 
-
 for (int j = 0; j < numbers.GetLength(1); j++)
 {
     double avarage = 0;
@@ -23,8 +22,6 @@ for (int j = 0; j < numbers.GetLength(1); j++)
 }
 Console.WriteLine();
 PrintArray(numbers);
-
-
 
 void FillArrayRandomNumbers(int[,] array)
 {
